@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(37, 104, 82);
+}
+h1{
+    color: rgb(166, 255, 0);
+    font-size: 5rem;
+    z-index: -1;
+}
+.container::before{
+    content: "";
+    background-image: url("barney.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
